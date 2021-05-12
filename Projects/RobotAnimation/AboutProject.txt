@@ -1,0 +1,56 @@
+About Project
+=============
+
+This project is about creating a robot with the below hover effects:
+
+1. Body parts move as a response to mouse hover
+2. Robot moves forward creating a shadow on mouse hover
+
+
+The robot also has an animation effect of moving around the screen when the page is loaded.
+
+Properties newly launched in CSS3 have been used e.g. CSS transition , tranform and animation.
+
+Flex-box is used to position the various parts of the robot in order along with other position properties , also the ones from the box-model concept.
+
+Z-Index property is used to position the shadow and the robot.
+
+
+
+
+
+Technology Used
+===============
+
+HTML5
+CSS3
+Google fonts
+
+
+Code Editor
+============
+
+Sublime Text3
+
+
+
+
+Challenges
+==========
+
+1. The main challenge is to position the parts of the robot in correct order.
+2. Figuring out how to reuse the code to maximum for creating the shadow (i still believe that the code can be refactored even better.)
+
+
+
+
+Compatibility issues
+====================
+
+The code has been tested on Google Chrome Version 90.0.4430.85
+
+Because of the use of some properties from CSS3 , some effects might not be working for some browser versions.
+If in doubt use the css file "compatibilityModified_robot_style.css" instead of "robot_style.css".
+
+
+
