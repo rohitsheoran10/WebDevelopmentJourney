@@ -10,8 +10,8 @@
 	}
 
 	50% {
-		margin-left: 800px;
-		margin-top: 0rem;
+		margin-left: -800px;
+		margin-top: 100px;
 	}
 
 	75% {
@@ -19,40 +19,48 @@
 		margin-top: 100px;
 	}
 
-	/*100% {margin-left:500px; margin-top:8rem;}*/
+	100% {
+		margin-left: 0px;
+		margin-top: 100px;
+	}
+
 }
 
-.robot, .robotshadow {
+body {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.robot,
+.robotshadow {
 	flex-direction: column;
-	margin-left: 300px;
-	margin-top: 2rem;
+	margin: 8% auto;
 	animation-name: robomoves;
-	animation-duration: 4s;
+	animation-duration: 6s;
 	animation-iteration-count: 1;
 	position: absolute;
+	transition: transform 3s ease-out;
+}
+
+.robot {
 	z-index: 2;
-	transition: transform 3s ease;
 }
 
 .robot:hover {
 	transform: translate(60px, 60px);
 }
 
-
-
-
-
-
 .top_upperbody {
 	margin-left: 4.5em;
 }
 
 .ears {
-	display: inline-flex;
+	display: flex;
 }
 
-.leftear, .rightear {
+.leftear,
+.rightear {
 	width: 30px;
 	height: 50px;
 	border: 1px solid #4A738B;
@@ -70,26 +78,24 @@
 	transform: rotate(30deg);
 }
 
-.leftear:hover, .rightear:hover {
+.leftear:hover,
+.rightear:hover {
 	transform: rotate(0deg);
 }
-
-
-
-
 
 .upperbody {
 	margin-left: 4.5em;
 }
 
 .eyes {
-	display: inline-flex;
+	display: flex;
 	margin-left: 4em;
 	margin-top: 50px;
 	transition: height 0.5s linear;
 }
 
-.lefteye, .righteye {
+.lefteye,
+.righteye {
 	width: 10px;
 	height: 10px;
 	background-color: black;
@@ -101,7 +107,8 @@
 	margin-left: 3em;
 }
 
-.lefteye:hover, .righteye:hover {
+.lefteye:hover,
+.righteye:hover {
 	height: 0px;
 }
 
@@ -119,14 +126,9 @@
 	transform: rotateY(-60deg);
 }
 
-
-
-
-
-
 .middlebody {
 	margin-left: 1em;
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 }
 
@@ -143,7 +145,8 @@
 	transform: scale(0.5, 0.5);
 }
 
-.righthand, .lefthand {
+.righthand,
+.lefthand {
 	width: 50px;
 	height: 150px;
 	border: 1px solid #4A738B;
@@ -152,22 +155,21 @@
 	transition: all 3s ease;
 }
 
-.righthand:hover, .lefthand:hover {
+.righthand:hover,
+.lefthand:hover {
 	transform: rotateX(360deg);
 }
-
-
-
 
 .lowerbody {
 	margin-left: 6em
 }
 
 .legs {
-	display: inline-flex;
+	display: flex;
 }
 
-.leftleg, .rightleg {
+.leftleg,
+.rightleg {
 	width: 50px;
 	height: 100px;
 	border: 1px solid #4A738B;
@@ -188,26 +190,14 @@
 	transform: rotate(30deg);
 }
 
-
-
-
-
 p {
 	margin: 20px;
 	text-align: center;
-	font-size: 15px;
+	font-size: 30px;
 	font-family: 'Girassol', cursive;
 	color: #AA3C39;
 	text-transform: uppercase;
-	position: fixed;
-	right: 5px;
-	bottom: 2px;
 }
-
-
-
-
-
 
 .robotshadow {
 	z-index: 1;
