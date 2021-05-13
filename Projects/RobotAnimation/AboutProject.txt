@@ -23,7 +23,7 @@ Flex-box is used to position the various parts of the robot in order along with 
 Z-Index property is used to position the shadow and the robot.
 
 
-
+The webpage with robot is not responsive.
 
 
 Technology Used
