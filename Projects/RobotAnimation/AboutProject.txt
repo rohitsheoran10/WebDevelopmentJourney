@@ -32,6 +32,8 @@ Technology Used
 HTML5
 CSS3
 Google fonts
+Sublime Text 3
+Git
 
 
 Code Editor
