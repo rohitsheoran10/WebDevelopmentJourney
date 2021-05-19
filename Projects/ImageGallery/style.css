@@ -1,7 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .container {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
 	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 
@@ -10,11 +22,15 @@ img {
 	width: 350px;
 	height: 200px;
 	margin: 10px;
+	-webkit-transition: all 1s linear;
+	-o-transition: all 1s linear;
 	transition: all 1s linear;
 }
 
 img:hover {
-	transform: scale(1.25,1.25);
+	-webkit-transform: scale(1.25,1.25);
+	    -ms-transform: scale(1.25,1.25);
+	        transform: scale(1.25,1.25);
 }
 
 
@@ -25,7 +41,8 @@ h1 {
 	border-right: 2px solid pink;
 	text-align: center;
 	width: 400px;
-	box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	        box-shadow: 4px 4px 5px #888888;
 
 }
 
@@ -33,4 +50,3 @@ footer {
 	text-align: center;
 	font-family: fantasy;
 }
-
