@@ -1,0 +1,32 @@
+Link to the website where the project is hosted
+===============================================
+
+
+
+
+
+About Project
+=============
+
+This project is about creating a webpage for a startup event where visiters can subscribe for further communications by registering their emails.
+
+The webpage has been created using HTML 5, CSS3 and Bootstrap Grid and Bootstrap Flex utility.
+The signup form has been created using the popular mailing service MailChimp.
+
+The website has been put online using GitHub.
+
+
+The webpage is fully responsive.
+
+
+Technology Used
+===============
+
+HTML5
+CSS3
+Bootstrap Grid
+Boostrap Flex Utility
+MailChimp
+Sublime Text 3
+GitHub
+
